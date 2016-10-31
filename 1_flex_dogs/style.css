@@ -1,0 +1,68 @@
+.dogs {
+  display:flex;
+
+  background-color: #c9eeff;
+
+  list-style: none;
+ }
+
+.dogs__item {
+  /*box*/
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+
+  /*border*/
+  border: 10px solid #B4EBCA;
+  border-radius: 170px;
+
+  /*background*/
+  background-color: #FFB7C3;
+  background-image: url(images/spritesheet.jpg);
+  background-repeat: no-repeat;
+
+  /*font*/
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+
+  /*other*/
+}
+
+.dogs__item--wiener-dog {
+  background-position: -5px -5px;
+}
+
+.dogs__item--golden-retriever {
+  background-position: -315px -5px;
+}
+
+.dogs__item--jack-russel {
+  background-position: -5px -315px;
+}
+
+@media print {
+  .dogs__item {
+    border-color: red;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .dogs {
+    flex-direction: column;
+  }
+
+  .dogs__item--golden-retriever {
+    order: -1;
+  }
+
+  .dogs__item--wiener-dog {
+    order: 2;
+  }
+}
+
+.blue {
+  color: blue;
+}
