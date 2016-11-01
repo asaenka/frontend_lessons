@@ -1,0 +1,89 @@
+.quotes-page {
+  padding: 10px;
+
+  background-color: #EEE;
+}
+
+.quotes-page__body {
+  display: flex;
+  margin-top: 10px;
+}
+
+.quotes-page__header {
+  padding: 10px;
+  background-color: #96CDCD;
+
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.quotes-page__sidebar {
+  width: 260px;
+  padding: 10px;
+
+  background-color: #B4CDCD;
+}
+
+.quotes-page__content {
+  width: 100%;
+  padding: 10px;
+
+  background-color: #C0FF3E;
+}
+
+.philosopher-profile {
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+
+  background-color: #FF7256;
+}
+
+.philosopher-profile__avatar {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+  border-radius: 100px;
+}
+
+.philosopher-profile__name {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.philosopher-profile__info {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.quote-list__header {
+  font-size: 36px;
+  line-height: 48px; 
+}
+
+.quote-list__items {
+  margin-top: 20px;
+}
+
+.list-quote {
+  display: flex;
+
+  background-color: #71C671;
+}
+
+.list-quote--grey {
+  background-color: #CDC9C9; 
+}
+
+.list-quote__text {
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+}
+
+.quote-list__item + .quote-list__item { 
+  margin-top: 10px;
+}
