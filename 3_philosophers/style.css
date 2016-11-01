@@ -70,6 +70,7 @@
 
 .list-quote {
   display: flex;
+  justify-content: space-between;
 
   background-color: #71C671;
 }
