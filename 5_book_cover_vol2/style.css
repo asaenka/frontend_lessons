@@ -1,4 +1,8 @@
 .book-cover {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+
   width: 420px;
   height: 600px;
   padding: 50px 30px;
@@ -6,11 +10,6 @@
   background-image: url("images/image.jpg");
   background-size: cover;
   background-position: center center;
-  display:flex;
-  flex-direction: column;
-  justify-content:flex-end;
-
-
 }
 
 .book-cover__body {
