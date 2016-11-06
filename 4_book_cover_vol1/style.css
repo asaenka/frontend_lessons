@@ -1,0 +1,35 @@
+.book-cover {
+  width: 420px;
+  height: 600px;
+  padding: 50px 30px;
+
+  background-image: url("images/cover.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.book-cover__body {
+  padding: 10px;
+
+  background-color: #d1ae49;
+}
+
+.cover-body__chapter {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: sans-serif;
+}
+
+.cover-body__header {
+  margin-top: 10px;
+}
+
+.bipolar-cover-body-header {
+  font-size: 36px;
+  line-height: 36px;
+  font-family: sans-serif;
+}
+
+.bipolar-cover-body-header__right {
+  text-align: right;
+}
