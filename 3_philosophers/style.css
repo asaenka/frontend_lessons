@@ -61,7 +61,7 @@
 
 .quote-list__header {
   font-size: 36px;
-  line-height: 48px; 
+  line-height: 48px;
 }
 
 .quote-list__items {
@@ -76,7 +76,7 @@
 }
 
 .list-quote--grey {
-  background-color: #CDC9C9; 
+  background-color: #CDC9C9;
 }
 
 .list-quote__text {
@@ -85,6 +85,37 @@
   font-style: italic;
 }
 
-.quote-list__item + .quote-list__item { 
+.quote-list__item + .quote-list__item {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .list-quote {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .quote-list__item + .quote-list__item {
+    margin-top: 40px;
+  }
+
+  .list-quote__text {
+    margin-top:20px;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .quotes-page__body {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .quotes-page__content{
+    margin-top: 40px;
+  }
+
+  .quotes-page__body {
+    margin-top: 40px;
+  }
 }
