@@ -1,0 +1,121 @@
+.book-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 420px;
+  height: 600px;
+  padding: 50px 30px;
+
+  background-image: url("images/cover.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.book-cover__title {   
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #EEEE00;
+}
+
+.book-cover__body {  
+  background-color: #CDCD00;
+}
+
+.book-cover__citation {
+  margin-top: 100px;
+}
+
+.cover-citation {
+  text-align: right;
+  font-size: 10px;
+  font-family: arial;
+  color: #EEEE00;
+}
+
+.cover-citation__text {
+  margin-right: 10px; 
+}
+
+.cover-citation__author {
+  margin-top: 10px; 
+}
+
+.cover-body {
+  padding: 10px;
+}
+
+.cover-body__title {
+  padding-top: 10px;
+
+  font-family: arial;
+  font-weight: bold;
+  font-size: 18px;
+  color: #808000;
+}
+
+.cover-body__author{
+  margin-top: 10px;
+
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFAF0;
+}
+
+.cover-body__afterword {
+  padding-top: 10px;
+  margin: 5px 0 40px;
+
+  font-family: arial;
+  font-size: 12px;
+  color:#FFFAF0;
+}
+
+.reference {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;  
+
+  background-color: #808000;  
+}
+
+.reference__sponsor {
+  margin-top: 5px;
+  
+  text-transform: uppercase;
+  text-align: left;
+  font-family: arial;
+  font-size: 8px;
+  color: #CDCD00;
+}
+
+.reference__sponsor--highlighted {
+  color: #FFF;
+}
+
+.reference__logo {
+  display: flex;
+  align-items: center;
+
+  font-family: arial;
+  text-transform: uppercase;
+  color:#CDCD00;
+}
+
+@media screen and (max-width: 430px) {
+  .book-cover {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .book-cover__body {
+    margin-top: 30px;
+  }
+
+  .book-cover__citation {
+    margin-top: 40px;
+  }
+}
