@@ -1,0 +1,53 @@
+.body {
+  background: rgba(201,201,201,1);
+  background: radial-gradient(ellipse at center, rgba(201,201,201,1) 0%, rgba(201,201,201,1) 1%, rgba(196,196,196,1) 19%, rgba(191,191,191,1) 25%, rgba(186,186,186,1) 31%, rgba(227,227,227,1) 89%);
+}
+
+.book-cover {
+  width: 400px;
+  height: 600px;
+  margin: 20px auto;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: rotate(-10deg);  
+
+  box-shadow: 53px -9px 24px 5px rgba(92,92,92,1);
+
+  background-color: #FFF;  
+}
+
+.book-cover__body {  
+  padding: 20px 0 0;
+}
+
+.cover-body {
+  text-align: center;
+}
+
+.book-cover__image { 
+  width: 400px;
+  height: 331px;
+
+  background-image: url("images/cover.jpg");
+  background-position: bottom;
+}
+
+.cover-body__publishing-house {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.cover-body__author {
+  margin-top: 15px;
+
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.cover-body__title {
+  margin-top: 15px;
+
+  font-size: 24px;
+  line-height: 28px;
+}
